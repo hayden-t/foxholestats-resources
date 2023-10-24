@@ -1,5 +1,5 @@
 /*
-!/.gitignore
-!/.gitattributes
+!/videos
+!.gitattributes
+!.gitignore
 !/README.md
-!/videos/*
