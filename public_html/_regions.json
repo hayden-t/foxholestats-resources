@@ -1,0 +1,403 @@
+{
+  "Deadlands": {
+    "id": 1,
+    "name": "Deadlands"
+  },
+  "EndlessShore": {
+    "id": 2,
+    "name": "Endless Shore"
+  },
+  "UpperHeartlands": {
+    "id": 3,
+    "name": "Heartlands"
+  },
+  "UmbralWildWood": {
+    "id": 4,
+    "name": "Umbral Wildwood"
+  },
+  "CallahansPassage": {
+    "id": 5,
+    "name": "Callahans Passage"
+  },
+  "WeatheredExpanse": {
+    "id": 6,
+    "name": "Weathered Expanse"
+  },
+  "FarranacCoast": {
+    "id": 7,
+    "name": "Farranac Coast"
+  },
+  "Westgate": {
+    "id": 8,
+    "name": "Westgate"
+  },
+  "MooringCounty": {
+    "id": 9,
+    "name": "Mooring County"
+  },
+  "FishermansRow": {
+    "id": 12,
+    "name": "Fishermans Row"
+  },
+  "GreatMarch": {
+    "id": 13,
+    "name": "Great March"
+  },
+  "OarbreakerIsles": {
+    "id": 14,
+    "name": "Oarbreaker Isles"
+  },
+  "ReachingTrail": {
+    "id": 15,
+    "name": "Reaching Trail"
+  },
+  "TempestIsland": {
+    "id": 16,
+    "name": "Tempest Island"
+  },
+  "AllodsBightHex": {
+    "id": 20,
+    "name": "Allods Bight",
+    "grid": {
+      "x": 6,
+      "y": 8
+    }
+  },
+  "CallahansPassageHex": {
+    "id": 21,
+    "name": "Callahans Passage",
+    "grid": {
+      "x": 4,
+      "y": 4
+    }
+  },
+  "DeadLandsHex": {
+    "id": 22,
+    "name": "Deadlands",
+    "grid": {
+      "x": 4,
+      "y": 6
+    }
+  },
+  "DrownedValeHex": {
+    "id": 23,
+    "name": "The Drowned Vale",
+    "grid": {
+      "x": 5,
+      "y": 7
+    }
+  },
+  "EndlessShoreHex": {
+    "id": 24,
+    "name": "Endless Shore",
+    "grid": {
+      "x": 7,
+      "y": 7
+    }
+  },
+  "FarranacCoastHex": {
+    "id": 25,
+    "name": "Farranac Coast",
+    "grid": {
+      "x": 1,
+      "y": 5
+    }
+  },
+  "FishermansRowHex": {
+    "id": 26,
+    "name": "Fishermans Row",
+    "grid": {
+      "x": 0,
+      "y": 6
+    }
+  },
+  "GodcroftsHex": {
+    "id": 27,
+    "name": "Godcrofts",
+    "grid": {
+      "x": 8,
+      "y": 4
+    }
+  },
+  "GreatMarchHex": {
+    "id": 28,
+    "name": "Great March",
+    "grid": {
+      "x": 4,
+      "y": 10
+    }
+  },
+  "HeartlandsHex": {
+    "id": 29,
+    "name": "The Heartlands",
+    "grid": {
+      "x": 3,
+      "y": 9
+    }
+  },
+  "LinnMercyHex": {
+    "id": 30,
+    "name": "The Linn of Mercy",
+    "grid": {
+      "x": 3,
+      "y": 5
+    }
+  },
+  "LochMorHex": {
+    "id": 31,
+    "name": "Loch Mór",
+    "grid": {
+      "x": 3,
+      "y": 7
+    }
+  },
+  "MarbanHollow": {
+    "id": 32,
+    "name": "Marban Hollow",
+    "grid": {
+      "x": 5,
+      "y": 5
+    }
+  },
+  "MooringCountyHex": {
+    "id": 33,
+    "name": "The Moors",
+    "grid": {
+      "x": 3,
+      "y": 3
+    }
+  },
+  "OarbreakerHex": {
+    "id": 34,
+    "name": "Oarbreaker Isles",
+    "grid": {
+      "x": 0,
+      "y": 4
+    }
+  },
+  "ReachingTrailHex": {
+    "id": 35,
+    "name": "Reaching Trail",
+    "grid": {
+      "x": 4,
+      "y": 2
+    }
+  },
+  "ShackledChasmHex": {
+    "id": 36,
+    "name": "Shackled Chasm",
+    "grid": {
+      "x": 5,
+      "y": 9
+    }
+  },
+  "StonecradleHex": {
+    "id": 37,
+    "name": "Stonecradle",
+    "grid": {
+      "x": 2,
+      "y": 4
+    }
+  },
+  "TempestIslandHex": {
+    "id": 38,
+    "name": "Tempest Island",
+    "grid": {
+      "x": 8,
+      "y": 6
+    }
+  },
+  "UmbralWildwoodHex": {
+    "id": 39,
+    "name": "Umbral Wildwood",
+    "grid": {
+      "x": 4,
+      "y": 8
+    }
+  },
+  "ViperPitHex": {
+    "id": 40,
+    "name": "Viper Pit",
+    "grid": {
+      "x": 5,
+      "y": 3
+    }
+  },
+  "WeatheredExpanseHex": {
+    "id": 41,
+    "name": "Weathered Expanse",
+    "grid": {
+      "x": 6,
+      "y": 4
+    }
+  },
+  "WestgateHex": {
+    "id": 42,
+    "name": "Westgate",
+    "grid": {
+      "x": 1,
+      "y": 7
+    }
+  },
+  "AcrithiaHex": {
+    "id": 50,
+    "name": "Acrithia",
+    "grid": {
+      "x": 5,
+      "y": 11
+    }
+  },
+  "AshFieldsHex": {
+    "id": 51,
+    "name": "Ash Fields",
+    "grid": {
+      "x": 2,
+      "y": 10
+    }
+  },
+  "BasinSionnachHex": {
+    "id": 52,
+    "name": "Basin Sionnach",
+    "grid": {
+      "x": 4,
+      "y": 0
+    }
+  },
+  "CallumsCapeHex": {
+    "id": 53,
+    "name": "Callums Cape",
+    "grid": {
+      "x": 2,
+      "y": 2
+    }
+  },
+  "ClansheadValleyHex": {
+    "id": 54,
+    "name": "Clanshead Valley",
+    "grid": {
+      "x": 6,
+      "y": 2
+    }
+  },
+  "HowlCountyHex": {
+    "id": 55,
+    "name": "Howl County",
+    "grid": {
+      "x": 5,
+      "y": 1
+    }
+  },
+  "KalokaiHex": {
+    "id": 56,
+    "name": "Kalokai",
+    "grid": {
+      "x": 4,
+      "y": 12
+    }
+  },
+  "MorgensCrossingHex": {
+    "id": 57,
+    "name": "Morgens Crossing",
+    "grid": {
+      "x": 7,
+      "y": 3
+    }
+  },
+  "NevishLineHex": {
+    "id": 58,
+    "name": "Nevish Line",
+    "grid": {
+      "x": 1,
+      "y": 3
+    }
+  },
+  "OriginHex": {
+    "id": 59,
+    "name": "Origin",
+    "grid": {
+      "x": 1,
+      "y": 9
+    }
+  },
+  "RedRiverHex": {
+    "id": 60,
+    "name": "Red River",
+    "grid": {
+      "x": 3,
+      "y": 11
+    }
+  },
+  "SpeakingWoodsHex": {
+    "id": 61,
+    "name": "Speaking Woods",
+    "grid": {
+      "x": 3,
+      "y": 1
+    }
+  },
+  "TerminusHex": {
+    "id": 62,
+    "name": "Terminus",
+    "grid": {
+      "x": 6,
+      "y": 10
+    }
+  },
+  "TheFingersHex": {
+    "id": 63,
+    "name": "The Fingers",
+    "grid": {
+      "x": 8,
+      "y": 8
+    }
+  }
+  ,
+  "SableportHex": {
+    "id": 64,
+    "name": "Sableport",
+    "grid": {
+      "x": 2,
+      "y": 8
+    }
+  },
+  "KingsCageHex": {
+    "id": 65,
+    "name": "Kings Cage",
+    "grid": {
+      "x": 2,
+      "y": 6
+    }
+  },
+  "ReaversPassHex": {
+    "id": 66,
+    "name": "Reavers Pass",
+    "grid": {
+      "x": 7,
+      "y": 9
+    }
+  },
+  "StemaLandingHex": {
+    "id": 67,
+    "name": "Stema Landing",
+    "grid": {
+      "x": 0,
+      "y": 8
+    }
+  },
+  "StlicanShelfHex": {
+    "id": 68,
+    "name": "Stlican Shelf",
+    "grid": {
+      "x": 7,
+      "y": 5
+    }
+  },
+  "ClahstraHex": {
+    "id": 69,
+    "name": "The Clahstra",
+    "grid": {
+      "x": 6,
+      "y": 6
+    }
+  }
+}

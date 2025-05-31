@@ -1,0 +1,15 @@
+{
+"domain": "https://foxholestats.com",
+"path": "/home/foxholestats/public_html",
+"db_server": "127.0.0.1",
+"db_username": "foxholestats",
+"db_password": "ntumnemuiemi39894353c0343",
+"db_name": "foxholestats",
+"sse_port": 7551,
+"warapi": "https://war-service-live.foxholeservices.com",
+"mapSize": {"x" : 1024, "y" : 888},
+"worldSize": {"x" : 7168, "y" : 6216},
+"gridInterval": {"x" : 768, "y" : 444},
+"outputImageSize": {"x" : 1526, "y" : 1322},
+"first_wc": 1
+}

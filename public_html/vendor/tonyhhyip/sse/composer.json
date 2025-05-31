@@ -1,0 +1,51 @@
+{
+  "name": "tonyhhyip/sse",
+  "version": "2.1.3",
+  "description": "An easy-to-use, object-oriented library for Server-Sent Events",
+  "type": "library",
+  "keywords": ["sse"],
+  "homepage": "https://github.com/licson0729/libSSE-php",
+  "license": "MIT",
+
+  "authors": [
+    {
+      "name": "Licson Lee",
+      "email": "licson0729@gmail.com",
+      "homepage": "https://licson.net/",
+      "role": "Owner"
+    },
+
+    {
+      "name": "Tony Yip",
+      "email": "tony@opensource.hk",
+      "homepage": "https://github.com/tonyhhyip",
+      "role": "Developer"
+    }
+  ],
+
+  "support": {
+    "email": "licson0729@gmail.com",
+    "issues": "https://github.com/licson0729/libSSE-php/issues/new",
+    "source": "https://github.com/licson0729/libSSE-php"
+  },
+
+  "require": {
+    "php": ">=5.3.9",
+    "symfony/http-foundation": "~2.7 | ~3.0 | ~4.0"
+  },
+
+  "require-dev": {
+    "phpunit/phpunit": "~4.2 | ~5.0"
+  },
+
+  "autoload": {
+    "psr-4": {
+      "Sse\\": "src/"
+    }
+  },
+
+  "suggest": {
+    "predis/predis": "For using RedisMechnism",
+    "symfony/polyfill-apcu": "For APCMecnism on PHP < 7.0"
+  }
+}

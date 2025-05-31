@@ -1,0 +1,7 @@
+body { background:none;background-color: rgba(0, 0, 0, 0); margin: 0px auto; overflow: hidden; }
+.eventLog{padding:0}
+
+.eventLog li{border-bottom:none;}
+.eventHeader,.eventFooter{display:none}
+.eventLog ul{overflow:hidden;height:100%;border:none;}
+#patreonLink{display:none;}

@@ -1,0 +1,59 @@
+a.leaflet-control-rangefinder{
+	font-size: 16px;
+	font-weight: bold;
+	line-height: 21px;
+	background: #fff url('/lib/rangefinder.png') no-repeat center center / 80%;
+	}
+	
+input.leaflet-control-rangefinder{
+width:30px;
+text-align:center;
+border:none;
+padding:5px 0;
+}
+
+.leaflet-touch .leaflet-bar input:first-child {
+  border-top-left-radius: 2px;
+  border-top-right-radius: 2px;
+}
+
+.leaflet-bar-part-top-and-bottom {
+	-webkit-border-radius: 4px 4px 4px 4px;
+	        border-radius: 4px 4px 4px 4px;
+	border-bottom: none;
+	}
+
+.leaflet-touch .leaflet-bar-part-top-and-bottom {
+	-webkit-border-radius: 7px 7px 7px 7px;
+	        border-radius: 7px 7px 7px 7px;
+	border-bottom: none;
+	}
+
+.leaflet-control-rangefinder-on .leaflet-control-rangefinder {
+background-color: #e85952;
+	box-shadow: 0 0 8px rgba(10,10,10,1.0);
+	}
+
+.leaflet-rangefinder-tooltip{
+	font: 13px "Helvetica Neue", Arial, Helvetica, sans-serif;
+	background-color: rgba(255, 255, 255, 0.7);
+	box-shadow: 0 0 5px #BBB;
+	margin: 0;
+	padding: 2px;
+	width: auto !important;
+	height: auto !important;
+	white-space: nowrap;
+	top:-30px;
+	}
+	
+
+
+.leaflet-rangefinder-tooltip-total {
+	font-weight: bold;
+	}
+
+.leaflet-rangefinder-tooltip-difference {
+	color: #777;
+	}
+
+

@@ -1,0 +1,10 @@
+/*
+!/public_html
+!/python
+!/node_app
+!/node_modules
+!/foxhole-settings-sample.json
+!/composer-setup.php
+!/package.json
+!/.gitignore
+!/.composer.json

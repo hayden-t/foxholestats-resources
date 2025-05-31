@@ -1,0 +1,262 @@
+		body{font-family:"Futura-LT-W01-Book";background:#2f2f2f url("/images/naval.webp") no-repeat top center;color:#dab680;font-size:16px;margin:10px 0; }
+		a,a:visited{color:#dab680;}
+		div.row{margin-bottom:10px;clear:both;}
+		.chart{height:400px;}
+		
+		
+		
+		.affiliate{text-align:left;padding:10px;flex-grow:1}
+		.affiliate ul{overflow-y:scroll;word-break: break-all;margin:0;padding: 0;height:400px;border: 1px solid #e3d7c5;}
+		.affiliate li{list-style: none;padding-top: 3px;padding:0 1%;width:20%;}
+		.affiliate li .count{font-size:10px;}
+		
+		#map{flex-grow:1}		
+		
+		.eventLog{text-align:left;padding:10px 40px;}
+		.eventLog ul{overflow:scroll;margin:0;padding: 0;height:500px;border: 1px solid #e3d7c5;white-space:nowrap;}
+		.eventLog li{list-style: none;padding-top: 3px;padding:0 10px;clear:both;border-bottom: thin dashed #717171;}
+		.eventLog .Wardens{color:rgb(98, 154, 237)}
+		.eventLog .Colonials{color:rgb(84, 197, 61)}
+		.eventLog .Someone{color:white;}
+		.eventLog li img{width:25px;vertical-align: bottom;}
+		
+		
+		#header{text-align:center;}
+		
+		h3, h2{margin:0;}
+		#slider{width:50%;display:inline-block;margin:0 10px;background:#3e3e3e;}
+		.mapGrid{border-collapse: collapse;text-align:center;margin-right: 10px;margin:0 auto;position:relative;width:1300px;}
+		.mapGrid td{background:#0006;border: 1px solid #e3d7c5;/*width: 180px;height: 146px;*/}
+		.mapGrid a{width:100%;/*height:100%;*//*min-height:117px;*/display:block;position: relative;color:white;text-decoration:none;font-weight:normal;}
+	/*	.casualtyRate span, .casualties span{display:inline-block;width:50%}*/
+/*		.casualties span.warden{background: url("/images/wardenCross.png") no-repeat 95% center;}
+		.casualties span.colonial{background: url("/images/collieCross.png") no-repeat 5% center;}*/
+		
+		.town{border: thin solid #dbdbdb;
+					width: 15px;
+					height: 15px;
+					display: inline-block;
+					line-height: 16px;
+					font-size: 13px;}
+		
+		
+		
+	
+		
+		.pcount{position: absolute;width: 100%;left: 0;color: white;top:45px;}
+		.skirmish{vertical-align: top;padding: 0 4px;border: 1px solid #e3d7c5;width:135px;height:135px;display: inline-block;margin:1px;text-align:center;}
+		
+	
+		#span{margin:0;padding-top: 10px;}
+	
+	
+		
+		.skirmish a{background:#0000004d;width:100%;height:100%;display:block;position: relative;color:white;text-decoration:none;font-weight:normal;}
+		.towns{position:relative;text-align:center;width:100%;display:none;}
+		.towns img{width:25px;vertical-align: bottom;}
+		
+		.victoryTowns img {
+			width: 30px;background:none;
+		}
+		
+		.skirmish .warden, .skirmish .unclaimed, .skirmish .collie{top:36px;}
+		.iconw, .iconc{background: url("//b.thumbs.redditmedia.com/F7RJ5HYeePQAt5EZR953OTWCfvQ9KFYeZBlgURilcKs.png") no-repeat scroll -9999px -9999px transparent;
+					height: 24px;
+					vertical-align: middle;
+					min-width: 24px;
+					margin-bottom: 2px;
+				}
+				.iconw {
+					display: inline-block;
+					background-position: 0 -125px;
+				}
+				.iconc {
+					display: inline-block;
+					background-position: 0 -100px;
+				}
+				a#clustrmaps-widget-v2, #clustrmaps-widget-v2{margin: 0 auto !important;border: 1px solid #e3d7c5!important;}
+   
+		.featherlight .featherlight-content{padding:0;border:0;}
+		.featherlight:last-of-type {
+			background: rgba(0,0,0,.6);
+		}
+
+		.torn{
+font-family: 'New Rocker', cursive;
+font-size: 56px;
+line-height: 45px;
+letter-spacing: 7px;
+padding-top: 5px;
+color: #ffe248;
+margin-bottom: 10px;
+		}
+		
+		
+		.shoutBoxContainer{width:400px!important;float:left;margin-left: 10px;flex-grow:1}
+		.shoutServerText{border-color:#fff!important;background:none!important;}
+		.shoutBoxHeader{background-color: #484848!important;}
+		.shoutText:hover,.shoutText {background:none!important;}
+		.shoutBoxAvatar{display:none!important;}
+		:focus {
+			outline: none!important;
+			border: none!important;
+			}
+			
+
+			.tooltip{display:none;position:absolute;z-index:99;width:100%;left: 0;min-height:100px;background: url('/images/loader.gif')no-repeat center;}
+			.tooltip img {border: 1px solid #e3d7c5;max-width: 100%;}
+			
+			@font-face{
+    font-family:"Futura-LT-W01-Book";
+    src:url("//static.parastorage.com/services/third-party/fonts/user-site-fonts/fonts/cf053eae-ba1f-44f3-940c-a34b68ccbbdf.eot?#iefix");
+    src:url("//static.parastorage.com/services/third-party/fonts/user-site-fonts/fonts/cf053eae-ba1f-44f3-940c-a34b68ccbbdf.eot?#iefix") format("eot"),url("//static.parastorage.com/services/third-party/fonts/user-site-fonts/fonts/8bf38806-3423-4080-b38f-d08542f7e4ac.woff2") format("woff2"),url("//static.parastorage.com/services/third-party/fonts/user-site-fonts/fonts/e2b9cbeb-fa8e-41cd-8a6a-46044b29ba52.woff") format("woff"),url("//static.parastorage.com/services/third-party/fonts/user-site-fonts/fonts/c2a69697-4f06-4764-abd4-625031a84e31.ttf") format("truetype"),url("//static.parastorage.com/services/third-party/fonts/user-site-fonts/fonts/dc423cc1-bf86-415c-bc7d-ad7dde416a34.svg#dc423cc1-bf86-415c-bc7d-ad7dde416a34") format("svg");
+}
+
+	#summary{margin:10px auto 0;text-align:center;border-collapse: collapse;}
+	#summary tr:last-child td{border-bottom: thin solid #e3d7c5;}
+	#summary tr td:first-child{text-align:left;font-weight:bold;/*border-right: thin solid #e3d7c5;*/}
+	#summary th{padding:5px;border-bottom: thin solid #e3d7c5;width:20%}
+	#summary td{padding:5px;}
+	#summary img{vertical-align:top}
+	
+	.towns .rocket{position: absolute;right: 0;bottom: 0;width:30px;}
+	
+	.mapGrid td.empty{height:auto;border: none;background: none;}
+
+
+	.collie.t3{vertical-align:bottom;display: inline-block;background:url("/images/MapIcons/cache/MapIconTownBaseTier3Colonial.png") no-repeat;width:50px;height:50px;background-size: 100% 100%; }
+	.collie.t2{vertical-align:bottom;display: inline-block;background:url("/images/MapIcons/cache/MapIconTownBaseTier2Colonial.png") no-repeat;width:50px;height:50px;background-size: 100% 100%; }
+	.collie.t1{vertical-align:bottom;display: inline-block;background:url("/images/MapIcons/cache/MapIconTownBaseTier1Colonial.png") no-repeat;width:50px;height:50px;background-size: 100% 100%; }
+	.collie.sc{vertical-align:bottom;display: inline-block;background:url("/images/MapIcons/cache/MapIconStormCannonColonial.png") no-repeat;width:50px;height:50px;background-size: 100% 100%; }
+	.collie.intel{vertical-align:bottom;display: inline-block;background:url("/images/MapIcons/cache/MapIconIntelCenterColonial.png") no-repeat;width:50px;height:50px;background-size: 100% 100%; }
+	.collie.target{vertical-align:bottom;display: inline-block;background:url("/images/MapIcons/cache/MapIconRocketTargetColonial.png") no-repeat;width:50px;height:50px;background-size: 100% 100%; }
+	.collie.rocket{vertical-align:bottom;display: inline-block;background:url("/images/MapIcons/cache/MapIconRocketSiteWithRocketColonial.png") no-repeat;width:50px;height:50px;background-size: 100% 100%; }
+	.collie.victory{vertical-align:bottom;display: inline-block;background:url("/images/MapIcons/cache/MapIconTownHallColonial.png") no-repeat;width:50px;height:50px;background-size: 100% 100%; }
+	.collie.weather{vertical-align:bottom;display: inline-block;background:url("/images/MapIcons/cache/MapIconWeatherStationColonial.png") no-repeat;width:50px;height:50px;background-size: 100% 100%; }
+
+	.warden.t3{vertical-align:bottom;display: inline-block;background:url("/images/MapIcons/cache/MapIconTownBaseTier3Warden.png") no-repeat;width:50px;height:50px;background-size: 100% 100%; }
+	.warden.t2{vertical-align:bottom;display: inline-block;background:url("/images/MapIcons/cache/MapIconTownBaseTier2Warden.png") no-repeat;width:50px;height:50px;background-size: 100% 100%; }
+	.warden.t1{vertical-align:bottom;display: inline-block;background:url("/images/MapIcons/cache/MapIconTownBaseTier1Warden.png") no-repeat;width:50px;height:50px;background-size: 100% 100%; }	
+	.warden.sc{vertical-align:bottom;display: inline-block;background:url("/images/MapIcons/cache/MapIconStormCannonWarden.png") no-repeat;width:50px;height:50px;background-size: 100% 100%; }	
+	.warden.intel{vertical-align:bottom;display: inline-block;background:url("/images/MapIcons/cache/MapIconIntelCenterWarden.png") no-repeat;width:50px;height:50px;background-size: 100% 100%; }
+	.warden.target{vertical-align:bottom;display: inline-block;background:url("/images/MapIcons/cache/MapIconRocketTargetWarden.png") no-repeat;width:50px;height:50px;background-size: 100% 100%; }
+	.warden.rocket{vertical-align:bottom;display: inline-block;background:url("/images/MapIcons/cache/MapIconRocketSiteWithRocketWarden.png") no-repeat;width:50px;height:50px;background-size: 100% 100%; }
+	.warden.victory{vertical-align:bottom;display: inline-block;background:url("/images/MapIcons/cache/MapIconTownHallWarden.png") no-repeat;width:50px;height:50px;background-size: 100% 100%; }
+	.warden.weather{vertical-align:bottom;display: inline-block;background:url("/images/MapIcons/cache/MapIconWeatherStationWarden.png") no-repeat;width:50px;height:50px;background-size: 100% 100%; }
+
+	
+	.rocketEvent {
+    background: #780000!important;
+}
+.resetEvent {
+  
+}
+.townEvent {
+/*  text-decoration: underline;*/
+}
+
+.flag img{width:35px;}
+
+.mapLink{
+padding:5px 10px;text-decoration: none;
+}
+#mapLinks{
+text-align:center;
+padding-bottom: 10px;
+}
+				.mapGrid a{
+/*					border: 1px solid #fff3;
+					background:#0000001a;*/
+					min-height:150px;
+					padding-top: 5px;
+				}
+
+	
+		.mapGrid td{border:none;background:none;width: 142px;}
+				
+				.flex{display:flex;flex-wrap:wrap}
+				.flex > *{flex-grow:1}
+				
+				.significants{min-height:28px}
+				.significants img {
+    width: 28px;
+    background: none;
+}
+
+/*			.towns .disc.warden{background:rgb(56, 88, 192)}
+			.towns .disc.neutral{background:#7e7e7e;}
+			.towns .disc.collie{background:rgb(61, 135, 46)}*/
+			
+
+			.grid .title,.grid .casualties{padding:0px 3px;min-height: 18px;}
+			.grid .casualtyRate > span{padding: 0 5px;}
+			
+			.grid .victoryTowns{padding:0px 3px;min-height: 30px;}
+			.victoryTowns .Civic{border-top-left-radius: 50%;border-top-right-radius: 50%;border:thin solid white;}
+			.victoryTowns .Civic.Warden{background:#2f8ddb}
+			.victoryTowns .Civic.Colonial{background:#61a852}
+			
+			.victoryTotals{color:white;font-size: 22px;margin:0 auto;position: absolute;white-space: nowrap;width:50%;}
+			.victoryTotals.wardens{right: -100px;text-align:left;}
+			.victoryTotals.wardens.line2{right: -230px;}
+			.victoryTotals.colonials{left:-100px;text-align:right;}
+			.victoryTotals.colonials.line2{left: -230px;}
+			
+			.tickcounter{
+				width: 200px;height: 100px;margin:0 auto; position: relative;top: 15px;
+			}
+			
+			.casualtyRate > span{display:block;}
+			
+			.grid .title{white-space:nowrap;}
+			/*.mapGrid{width: 1038px;}*/
+			
+			.rateDisc,.qrfDisc{border-radius: 50%;
+
+width: 12px;
+height: 12px;
+display: inline-block;}
+.rateDisc{margin-left:5px;}
+.qrfDisc{margin:5px;background: url('/images/Attention-sign-icon.png') center;border-color:white;display:none;background-size: contain;width: 18px;height: 18px;}
+
+#mylightbox{display:none;}
+#mylightbox.featherlight-inner {
+  display: block !important;
+}
+
+#patreonLink{text-align:center;float:right;text-decoration:none;background: #343434;padding:5px;}
+
+#summary .apiStatus.online{background: #0f7900;}
+#summary .apiStatus.offline{background: #a20000;}
+
+#header a.orange{color: white;
+background: #ff6820;
+padding: 0px 15px;
+
+border-radius: 20px;
+display: inline-block;
+}
+.featherlight .featherlight-close-icon{
+background:#ffffff;
+}
+#shards a{
+margin: 5px;text-decoration: none;
+}
+.featherlight .featherlight-content{
+background:none;
+}
+#controlLayer{
+padding: 0 26px;
+}
+
+
+.cryo span img{
+margin:0 3px;
+}
+.cryo span{
+white-space:nowrap;
+min-width: 66px;
+}
+.featherlight-loading{
+background: #000000c9 url('/images/loader.gif') no-repeat center center!important;
+}

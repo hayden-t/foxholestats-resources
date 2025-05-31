@@ -1,0 +1,13 @@
+{
+  "dependencies": {
+    "compression": "^1.7.4",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "fs": "^0.0.1-security",
+    "https": "^1.0.0",
+    "mysql": "^2.18.1",
+    "object-sizeof": "^2.6.1",
+    "os": "^0.1.2",
+    "sse-channel": "^4.0.0"
+  }
+}
